@@ -1,0 +1,22 @@
+arm pthread, num_threads 8, matrix size (400, 400) in order row, time consume: 0.024943065s
+arm pthread, num_threads 4, matrix size (400, 400) in order row, time consume: 0.023424080s
+arm pthread, num_threads 2, matrix size (400, 400) in order row, time consume: 0.026080581s
+arm pthread, num_threads 8, matrix size (200, 200) in order row, time consume: 0.021955162s
+arm pthread, num_threads 8, matrix size (100, 100) in order row, time consume: 0.021569581s
+arm pthread, num_threads 8, matrix size (50, 50) in order row, time consume: 0.023023413s
+arm pthread, num_threads 8, matrix size (400, 400) in order col, time consume: 0.024644019s
+arm pthread, num_threads 8, matrix size (400, 400) in order oneDim, time consume: 0.024941223s
+arm pthread, num_threads 8, matrix size (400, 400) in order row, time consume: 0.010439938s
+arm pthread, num_threads 4, matrix size (400, 400) in order row, time consume: 0.018565826s
+arm pthread, num_threads 2, matrix size (400, 400) in order row, time consume: 0.025839863s
+arm pthread, num_threads 8, matrix size (200, 200) in order row, time consume: 0.009739634s
+arm pthread, num_threads 8, matrix size (100, 100) in order row, time consume: 0.007086862s
+arm pthread, num_threads 8, matrix size (50, 50) in order row, time consume: 0.008043152s
+arm serial, matrix size (400, 400), time consume: 0.037992748s
+arm serial, matrix size (200, 200), time consume: 0.008705129s
+arm serial, matrix size (100, 100), time consume: 0.002313776s
+arm serial, matrix size (50, 50), time consume: 0.000730312s
+arm neon, matrix size (400, 400), time consume: 0.018947977s
+arm neon, matrix size (200, 200), time consume: 0.004300296s
+arm neon, matrix size (100, 100), time consume: 0.001164208s
+arm neon, matrix size (50, 50), time consume: 0.000493612s

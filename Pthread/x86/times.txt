@@ -1,0 +1,22 @@
+x86 sse pthread, num_threads 8, matrix size (400, 400) in row order, time consume: 0.001089336s
+x86 sse pthread, num_threads 4, matrix size (400, 400) in row order, time consume: 0.001513408s
+x86 sse pthread, num_threads 2, matrix size (400, 400) in row order, time consume: 0.003462339s
+x86 sse pthread, num_threads 8, matrix size (200, 200) in row order, time consume: 0.000366317s
+x86 sse pthread, num_threads 8, matrix size (100, 100) in row order, time consume: 0.000286962s
+x86 sse pthread, num_threads 8, matrix size (50, 50) in row order, time consume: 0.000081532s
+x86 sse pthread, num_threads 8, matrix size (400, 400) in col order, time consume: 0.003472404s
+x86 sse pthread, num_threads 8, matrix size (400, 400) in oneDim order, time consume: 0.004034399s
+x86 pthread, num_threads 8, matrix size (400, 400) in order row, time consume: 0.001746773s
+x86 pthread, num_threads 4, matrix size (400, 400) in order row, time consume: 0.002057585s
+x86 pthread, num_threads 2, matrix size (400, 400) in order row, time consume: 0.003225745s
+x86 pthread, num_threads 8, matrix size (200, 200) in order row, time consume: 0.000524638s
+x86 pthread, num_threads 8, matrix size (100, 100) in order row, time consume: 0.000342740s
+x86 pthread, num_threads 8, matrix size (50, 50) in order row, time consume: 0.000318520s
+x86 serial, matrix size (400, 400), time consume: 0.006447414s
+x86 serial, matrix size (200, 200), time consume: 0.001540117s
+x86 serial, matrix size (100, 100), time consume: 0.000377592s
+x86 serial, matrix size (50, 50), time consume: 0.000091246s
+x86 sse, matrix size (400, 400), time consume: 0.003055091s
+x86 sse, matrix size (200, 200), time consume: 0.000994999s
+x86 sse, matrix size (100, 100), time consume: 0.000207641s
+x86 sse, matrix size (50, 50), time consume: 0.000038339s
