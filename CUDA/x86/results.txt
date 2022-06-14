@@ -1,0 +1,24 @@
+image size [242, 324], generate rays: 0.005924236s
+image size [242, 324], render rays: 0.532541683s
+image size [484, 648], generate rays: 0.022938009s
+image size [484, 648], render rays: 2.261827029s
+image size [726, 972], generate rays: 0.052146793s
+image size [726, 972], render rays: 5.-99460502s
+image size [968, 1296], generate rays: 0.094045250s
+image size [968, 1296], render rays: 9.-168025492s
+image size [968, 1296], block size 8, generate rays: 0.024046706s
+image size: [968, 1296], block size 8, render rays: 0.003031649s
+image size [726, 972], block size 8, generate rays: 0.023292943s
+image size: [726, 972], block size 8, render rays: 0.001751832s
+image size [484, 648], block size 8, generate rays: 0.000311111s
+image size: [484, 648], block size 8, render rays: 0.000811162s
+image size [242, 324], block size 8, generate rays: 0.022930809s
+image size: [242, 324], block size 8, render rays: 0.000253033s
+image size [968, 1296], block size 2, generate rays: 0.025786885s
+image size: [968, 1296], block size 2, render rays: 0.023670261s
+image size [968, 1296], block size 4, generate rays: 0.023998883s
+image size: [968, 1296], block size 4, render rays: 0.006007821s
+image size [968, 1296], block size 16, generate rays: 0.024339009s
+image size: [968, 1296], block size 16, render rays: 0.003081494s
+image size [968, 1296], block size 32, generate rays: 0.025005568s
+image size: [968, 1296], block size 32, render rays: 0.003241332s

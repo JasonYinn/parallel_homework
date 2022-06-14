@@ -10,3 +10,6 @@ qemu/*
 hello
 hello.cpp
 hello64
+
+ignore
+ignore/*

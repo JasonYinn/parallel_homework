@@ -1,0 +1,1 @@
+将data_bin.zip解压至当前目录后，可运行compile_x86.sh编译，随后运行test_x86.sh进行测试。
