@@ -1,0 +1,46 @@
+x86 sse pthread, num_threads 8, matrix size (968, 1296) in row order, time consume: 0.007276621s
+x86 sse pthread, num_threads 4, matrix size (968, 1296) in row order, time consume: 0.009921774s
+x86 sse pthread, num_threads 2, matrix size (968, 1296) in row order, time consume: 0.011616319s
+x86 sse pthread, num_threads 8, matrix size (726, 972) in row order, time consume: 0.002837365s
+x86 sse pthread, num_threads 8, matrix size (484, 648) in row order, time consume: 0.001414453s
+x86 sse pthread, num_threads 8, matrix size (242, 324) in row order, time consume: 0.000360098s
+x86 sse pthread, num_threads 8, matrix size (968, 1296) in col order, time consume: 0.017009834s
+x86 sse pthread, num_threads 8, matrix size (968, 1296) in oneDim order, time consume: 0.015969081s
+x86 pthread, num_threads 8, matrix size (968, 1296) in order row, time consume: 0.007823264s
+x86 pthread, num_threads 4, matrix size (968, 1296) in order row, time consume: 0.009696433s
+x86 pthread, num_threads 2, matrix size (968, 1296) in order row, time consume: 0.013257313s
+x86 pthread, num_threads 8, matrix size (726, 972) in order row, time consume: 0.004824103s
+x86 pthread, num_threads 8, matrix size (484, 648) in order row, time consume: 0.002526244s
+x86 pthread, num_threads 8, matrix size (242, 324) in order row, time consume: 0.000803903s
+x86 serial, matrix size (968, 1296), time consume: 0.034658589s
+x86 serial, matrix size (726, 972), time consume: 0.015172920s
+x86 serial, matrix size (484, 648), time consume: 0.006907919s
+x86 serial, matrix size (242, 324), time consume: 0.001597475s
+x86 sse, matrix size (968, 1296), time consume: 0.014299479s
+x86 sse, matrix size (726, 972), time consume: 0.008676854s
+x86 sse, matrix size (484, 648), time consume: 0.003570983s
+x86 sse, matrix size (242, 324), time consume: 0.000811575s
+image size [242, 324], generate rays: 0.005924236s
+image size [242, 324], render rays: 0.532541683s
+image size [484, 648], generate rays: 0.022938009s
+image size [484, 648], render rays: 2.261827029s
+image size [726, 972], generate rays: 0.052146793s
+image size [726, 972], render rays: 5.-99460502s
+image size [968, 1296], generate rays: 0.094045250s
+image size [968, 1296], render rays: 9.-168025492s
+image size [968, 1296], block size 8, generate rays: 0.024046706s
+image size: [968, 1296], block size 8, render rays: 0.003031649s
+image size [726, 972], block size 8, generate rays: 0.023292943s
+image size: [726, 972], block size 8, render rays: 0.001751832s
+image size [484, 648], block size 8, generate rays: 0.000311111s
+image size: [484, 648], block size 8, render rays: 0.000811162s
+image size [242, 324], block size 8, generate rays: 0.022930809s
+image size: [242, 324], block size 8, render rays: 0.000253033s
+image size [968, 1296], block size 2, generate rays: 0.025786885s
+image size: [968, 1296], block size 2, render rays: 0.023670261s
+image size [968, 1296], block size 4, generate rays: 0.023998883s
+image size: [968, 1296], block size 4, render rays: 0.006007821s
+image size [968, 1296], block size 16, generate rays: 0.024339009s
+image size: [968, 1296], block size 16, render rays: 0.003081494s
+image size [968, 1296], block size 32, generate rays: 0.025005568s
+image size: [968, 1296], block size 32, render rays: 0.003241332s
